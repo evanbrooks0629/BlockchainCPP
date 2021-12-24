@@ -26,6 +26,8 @@ int main()
     chain1.AddNewBlock("Block Ten");  
     chain1.ToString();
 
+    cout << endl;
+    
     // INTEGER IMPLEMENTATION
 
     Chain<int> chain2(0);
